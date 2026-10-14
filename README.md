@@ -4,7 +4,7 @@
 
 **İnsan-Bilgisayar Etkileşimi (HCI) Projesi**
 
-[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1kpzgAkBKSYcCcoMgeZ-6q2RiJDB9hZY9?usp=sharing)
 [![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![HTML/JS/CSS](https://img.shields.io/badge/Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
@@ -27,9 +27,16 @@ Farklı deneyim seviyelerinden (Düşük, Orta, Uzman) toplam 9 katılımcıdan,
 
 ## 🎮 En Başarılı Çıktı: Uzman Katılımcı Sudoku Oyunu
 
-Bu depoda bulunan `game` (Notebook) dosyası, test grubumuzdaki uzman katılımcılardan birinin (Yüksek Seviye) Gemini AI'ı en verimli şekilde yönlendirerek elde ettiği **nihai, profesyonel Sudoku oyununu** içermektedir.
+Bu depoda bulunan dosya, test grubumuzdaki uzman katılımcılardan birinin (Yüksek Seviye) Gemini AI'ı en verimli şekilde yönlendirerek elde ettiği **nihai, profesyonel Sudoku oyununu** içermektedir.
 
 Sadece yapay zeka istemleriyle oluşturulan bu oyun, Colab hücresi içinde kusursuz çalışan bir web arayüzüne sahiptir.
+
+<div align="center">
+  <img src="sudoku.png" alt="Gemini AI ile Üretilen Sudoku Oyunu Arayüzü" width="600">
+  <br>
+  <em>Gemini AI tarafından Google Colab üzerinde oluşturulan interaktif Sudoku arayüzü.</em>
+</div>
+<br>
 
 ### 🌟 Oyunun Özellikleri (AI Tarafından Üretildi)
 *   ⏱️ **Dinamik Zamanlayıcı:** 10 dakikayı geçince uyarı veren akıllı sayaç.
@@ -40,11 +47,13 @@ Sadece yapay zeka istemleriyle oluşturulan bu oyun, Colab hücresi içinde kusu
 *   🎨 **Görsel Geri Bildirim:** Seçili satır/sütun/kutu vurgulama, aynı rakamları parlatma ve anlık hata kontrolü (Yeşil/Kırmızı renk uyarıları).
 
 ### 🚀 Nasıl Çalıştırılır?
-1. Dosyayı Google Colab'de açın.
-2. `Python 3` kernel'inin seçili olduğundan emin olun.
-3. İlk hücreyi (Sudoku tahta üretici Python mantığı) çalıştırın.
-4. İkinci hücreyi (HTML/JS/CSS arayüz motoru) çalıştırın.
-5. Hücre çıktısında beliren interaktif Sudoku tahtasında oynamaya başlayın!
+
+Oyunu herhangi bir kurulum yapmadan doğrudan tarayıcınızda denemek için aşağıdaki adımları izleyebilirsiniz:
+
+1. **[Buraya tıklayarak Google Colab projesini açın.](https://colab.research.google.com/drive/1kpzgAkBKSYcCcoMgeZ-6q2RiJDB9hZY9?usp=sharing)**
+2. Üst menüden `Çalışma Zamanı` (Runtime) > `Tümünü Çalıştır` (Run all) seçeneğine tıklayın.
+3. Çıkan uyarıda "Yine de çalıştır" diyerek onay verin.
+4. En alttaki hücrenin çıktısında beliren interaktif Sudoku tahtasında oynamaya başlayın!
 
 ---
 
@@ -81,4 +90,3 @@ Gemini AI'ın Colab entegrasyonu, 9 katılımcı üzerinde 5 farklı akademik me
 Google Colab + Gemini AI entegrasyonu; **kullanıcı dostu, yüksek erişilebilirliğe sahip ve öğrenme eğrisini ciddi anlamda düşüren** bir yapıdadır. Hiç kod bilmeyen bir kullanıcının bile çalışan bir Sudoku oyunu yapabilmesi sistemin gücünü göstermektedir. 
 
 **Geliştirme Önerileri:** Hata ayıklama süreçlerinde tarayıcı konsoluna bağımlılığı azaltmak için Colab içi daha güçlü bir *debugger* entegrasyonu ve kod ekleme (Insert/Replace) davranışının kullanıcıya daha net sunulması (UI revizyonu) gerekmektedir.
-```eof
